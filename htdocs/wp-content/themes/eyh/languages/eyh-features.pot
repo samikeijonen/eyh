@@ -1,0 +1,93 @@
+# Copyright (C) 2017 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/\n"
+"POT-Creation-Date: 2017-08-03 08:49:18+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n1.0.0\n"
+
+#: templates/highschool-page.php:47
+msgid "Select highschools"
+msgstr ""
+
+#: templates/highschool-page.php:63
+msgid "Special task"
+msgstr ""
+
+#: templates/highschool-page.php:64
+msgid "Average/Points"
+msgstr ""
+
+#: templates/highschool-page.php:65
+msgid "Languages"
+msgstr ""
+
+#: templates/highschool-page.php:66
+msgid "Students starting"
+msgstr ""
+
+#: templates/highschool-page.php:67
+msgid "Students"
+msgstr ""
+
+#: templates/highschool-page.php:68
+msgid "Briefings"
+msgstr ""
+
+#: templates/highschool-page.php:69
+msgid "Contact info"
+msgstr ""
+
+#: templates/highschool-page.php:70
+msgid "Diplomas"
+msgstr ""
+
+#: templates/highschool-page.php:73
+msgid "Select data to compare"
+msgstr ""
+
+#: templates/highschool-page.php:91
+msgid "Scroll to right to see all data"
+msgstr ""
+
+#: templates/highschool-page.php:95
+msgid "Espoo highschools comparison"
+msgstr ""
+
+#: templates/highschool-page.php:96
+msgid "Highschool"
+msgstr ""
+
+#: functions.php:45
+#. translators: If there are characters in your language that are not supported
+#. by PT Sans, translate this to 'off'. Do not translate into your own
+#. language.
+msgctxt "PT Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:50
+#. translators: If there are characters in your language that are not supported
+#. by Vollkorn, translate this to 'off'. Do not translate into your own
+#. language.
+msgctxt "Vollkorn font: on or off"
+msgid "on"
+msgstr ""

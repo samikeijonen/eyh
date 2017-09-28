@@ -1,0 +1,351 @@
+# Copyright (C) 2017 Sami Keijonen
+# This file is distributed under the same license as the EYH Features package.
+msgid ""
+msgstr ""
+"Project-Id-Version: EYH Features 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/eyh-features\n"
+"POT-Creation-Date: 2017-08-02 12:30:26+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n1.0.0\n"
+
+#: inc/metaboxes.php:23
+msgid "School info"
+msgstr ""
+
+#: inc/metaboxes.php:28
+msgid "Website URL"
+msgstr ""
+
+#: inc/metaboxes.php:34
+msgid "Special task"
+msgstr ""
+
+#: inc/metaboxes.php:40
+msgid "Languages"
+msgstr ""
+
+#: inc/metaboxes.php:46
+msgid "Average/Points"
+msgstr ""
+
+#: inc/metaboxes.php:52
+msgid "Students starting"
+msgstr ""
+
+#: inc/metaboxes.php:58
+msgid "Students"
+msgstr ""
+
+#: inc/metaboxes.php:64
+msgid "Briefings"
+msgstr ""
+
+#: inc/metaboxes.php:70
+msgid "Contact info"
+msgstr ""
+
+#: inc/metaboxes.php:76
+msgid "Diplomas"
+msgstr ""
+
+#: inc/post-types.php:19
+msgid "Schools"
+msgstr ""
+
+#: inc/post-types.php:20 inc/post-types.php:45 inc/post-types.php:100
+msgid "School"
+msgstr ""
+
+#: inc/post-types.php:21
+msgid "School Archives"
+msgstr ""
+
+#: inc/post-types.php:22
+msgid "Parent School:"
+msgstr ""
+
+#: inc/post-types.php:23
+msgid "All School"
+msgstr ""
+
+#: inc/post-types.php:24 inc/post-types.php:25
+msgid "Add New School"
+msgstr ""
+
+#: inc/post-types.php:26
+msgid "New School"
+msgstr ""
+
+#: inc/post-types.php:27
+msgid "Edit School"
+msgstr ""
+
+#: inc/post-types.php:28
+msgid "Update School"
+msgstr ""
+
+#: inc/post-types.php:29
+msgid "View School"
+msgstr ""
+
+#: inc/post-types.php:30
+msgid "Search Schools"
+msgstr ""
+
+#: inc/post-types.php:31 inc/post-types.php:86
+msgid "Not found"
+msgstr ""
+
+#: inc/post-types.php:32 inc/post-types.php:87
+msgid "Not found in Trash"
+msgstr ""
+
+#: inc/post-types.php:33
+msgid "School Image"
+msgstr ""
+
+#: inc/post-types.php:34
+msgid "Set school image"
+msgstr ""
+
+#: inc/post-types.php:35
+msgid "Remove school image"
+msgstr ""
+
+#: inc/post-types.php:36
+msgid "Use as school image"
+msgstr ""
+
+#: inc/post-types.php:37 inc/post-types.php:92
+msgid "Insert into item"
+msgstr ""
+
+#: inc/post-types.php:38 inc/post-types.php:93
+msgid "Uploaded to this item"
+msgstr ""
+
+#: inc/post-types.php:39
+msgid "School list"
+msgstr ""
+
+#: inc/post-types.php:40
+msgid "School list navigation"
+msgstr ""
+
+#: inc/post-types.php:41
+msgid "Filter school list"
+msgstr ""
+
+#: inc/post-types.php:46 inc/post-types.php:101
+msgid "Espoo schools"
+msgstr ""
+
+#: inc/post-types.php:74
+msgid "Educations"
+msgstr ""
+
+#: inc/post-types.php:75
+msgid "Education"
+msgstr ""
+
+#: inc/post-types.php:76
+msgid "Education Archives"
+msgstr ""
+
+#: inc/post-types.php:77
+msgid "Parent Education:"
+msgstr ""
+
+#: inc/post-types.php:78
+msgid "All Educations"
+msgstr ""
+
+#: inc/post-types.php:79 inc/post-types.php:80
+msgid "Add New Education"
+msgstr ""
+
+#: inc/post-types.php:81
+msgid "New Education"
+msgstr ""
+
+#: inc/post-types.php:82
+msgid "Edit Education"
+msgstr ""
+
+#: inc/post-types.php:83
+msgid "Update Education"
+msgstr ""
+
+#: inc/post-types.php:84
+msgid "View Education"
+msgstr ""
+
+#: inc/post-types.php:85
+msgid "Search Education"
+msgstr ""
+
+#: inc/post-types.php:88
+msgid "Education Image"
+msgstr ""
+
+#: inc/post-types.php:89
+msgid "Set education image"
+msgstr ""
+
+#: inc/post-types.php:90
+msgid "Remove education image"
+msgstr ""
+
+#: inc/post-types.php:91
+msgid "Use as education image"
+msgstr ""
+
+#: inc/post-types.php:94
+msgid "Education list"
+msgstr ""
+
+#: inc/post-types.php:95
+msgid "Education list navigation"
+msgstr ""
+
+#: inc/post-types.php:96
+msgid "Filter education list"
+msgstr ""
+
+#: inc/taxonomies.php:19
+msgid "Office Categories"
+msgstr ""
+
+#: inc/taxonomies.php:20
+msgid "All Items"
+msgstr ""
+
+#: inc/taxonomies.php:21
+msgid "Parent Item"
+msgstr ""
+
+#: inc/taxonomies.php:22
+msgid "Parent Item:"
+msgstr ""
+
+#: inc/taxonomies.php:23
+msgid "New Item Name"
+msgstr ""
+
+#: inc/taxonomies.php:24
+msgid "Add New Item"
+msgstr ""
+
+#: inc/taxonomies.php:25
+msgid "Edit Item"
+msgstr ""
+
+#: inc/taxonomies.php:26
+msgid "Update Item"
+msgstr ""
+
+#: inc/taxonomies.php:27
+msgid "View Item"
+msgstr ""
+
+#: inc/taxonomies.php:28
+msgid "Separate items with commas"
+msgstr ""
+
+#: inc/taxonomies.php:29
+msgid "Add or remove items"
+msgstr ""
+
+#: inc/taxonomies.php:30
+msgid "Choose from the most used"
+msgstr ""
+
+#: inc/taxonomies.php:31
+msgid "Popular Items"
+msgstr ""
+
+#: inc/taxonomies.php:32
+msgid "Search Items"
+msgstr ""
+
+#: inc/taxonomies.php:33
+msgid "Not Found"
+msgstr ""
+
+#: inc/taxonomies.php:34
+msgid "No items"
+msgstr ""
+
+#: inc/taxonomies.php:35
+msgid "Items list"
+msgstr ""
+
+#: inc/taxonomies.php:36
+msgid "Items list navigation"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "EYH Features"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://EYH.fi/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Plugin for espoonyhteishaku.fi site."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Sami Keijonen"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://foxnet.fi/"
+msgstr ""
+
+#: inc/post-types.php:17
+msgctxt "Post Type General Name"
+msgid "School"
+msgstr ""
+
+#: inc/post-types.php:72
+msgctxt "Post Type General Name"
+msgid "Education"
+msgstr ""
+
+#: inc/post-types.php:18
+msgctxt "Post Type Singular Name"
+msgid "School"
+msgstr ""
+
+#: inc/post-types.php:73
+msgctxt "Post Type Singular Name"
+msgid "Education"
+msgstr ""
+
+#: inc/taxonomies.php:17
+msgctxt "Category General Name"
+msgid "Office Categories"
+msgstr ""
+
+#: inc/taxonomies.php:18
+msgctxt "Category Singular Name"
+msgid "Office Category"
+msgstr ""

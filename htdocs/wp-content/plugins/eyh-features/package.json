@@ -1,0 +1,8 @@
+{
+  "name": "valteri-features",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "grunt-wp-i18n": "^1.0.0"
+  }
+}
