@@ -63,6 +63,7 @@
 
     "wpackagist-plugin/google-analytics-dashboard-for-wp": "*",
     "wpackagist-plugin/cmb2": "*",
+    "wpackagist-plugin/subtitles": "*",
     "wpackagist-theme/checathlon": "*",
 
     "wpackagist-theme/twentyseventeen": "*"
