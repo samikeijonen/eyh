@@ -1,0 +1,9 @@
+---
+name: espoonyhteishaku
+production:
+  domain: espoonyhteishaku.fi.seravo.com
+  ssh_port: 10326
+  url: https://espoonyhteishaku.fi.seravo.com
+development:
+  domains:
+  - espoonyhteishaku.local
