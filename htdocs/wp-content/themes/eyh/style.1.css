@@ -1,0 +1,754 @@
+/**
+ * Theme Name:  Espoon yhteishaku
+ * Theme URI:   https://foxland.fi/downloads/checathlon/
+ * Description: Child theme of Checathlon theme. Custom theme for espoonyhteishaku.fi site.
+ * Version:     1.0.0
+ * Author:      Sami Keijonen
+ * Author URI:  https://foxland.fi/
+ * Text Domain: eyh
+ * Domain Path: /languages/
+ * Tags:        one-column, grid-layout, footer-widgets, accessibility-ready, custom-background, custom-header, custom-menu, editor-style, featured-images, translation-ready, blog
+ * License:     GNU General Public License v2.0 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Template:    checathlon
+ */
+
+/**
+ * Parent theme styles are loaded automatically. So there is no need to use @import rule.
+ *
+ */
+
+/**
+ * I've collected all the colors below which helps creating your own color schemes using custom child theme.
+ *
+ * 1.  #1f1f1f - Used for example in body color, titles, link hovers, and form borders.
+ * 2.  #111 - Used for example as background color, secondary button background, social media and tag links.
+ * 3.  #1f5cb8 - Used for example in main links, highlight color, and main button background color.
+ * 4.  #6c6c6c - Used for example as lighter or softer color for text and links.
+ * 5.  #fff    - Used for example in button text color, links or text color on darked background, and elements background color.
+ * 6.  #d4d4d4 - Used for example as main nav link colors, background color, and border colors.
+ * 7.  #e6e6e6 - Used for example as light border color, and footer widget link color.
+ * 8.  #f2f2f2 - Use for example as light background color and before footer border top color.
+ * 9.  #e1e1e1 - Used for example as pricing widget highlight color, and widget tagcloud links color.
+ * 10. #373737 - Used only as site footer background color.
+ * 11. #18ad39 - Used as security or success color in EDD (green).
+ * 12. #ffcbcb - Used as error color in EDD (red).
+ *
+ * Then there are couple of rgba colors used in the theme.
+ *
+ * 1. rgba(255, 255, 255, 0.95) - Main navigation wrapper color when mobile menu is open.
+ * 2. rgba(59, 59, 59, 0.33)    - Hover color on post thumbnail.
+ * 3. rgba(255, 255, 255, 0.1)  - Footer tagcloud link background.
+ * 4. rgba(255, 255, 255, 0.2)  - Border color for EDD loading spinner.
+ * 5. rgba(0, 0, 0, 0.1)        - Border color for dropdown menus.
+ *
+ * Note linear gradient in single background: linear-gradient(#f2f2f2, #fff 500px).
+ */
+
+/* Colors. */
+body,
+button,
+input,
+select,
+textarea {
+	color: #1f1f1f;
+}
+
+.before-footer-widgets-title {
+	color: #111;
+}
+
+.highlight-color,
+.jetpack-testimonial .entry-inner .icon,
+.testimonial .entry-inner .icon,
+.before-footer-widgets-wrapper .icon,
+.checathlon_widget_pricing .icon {
+	color: #1f5cb8;
+}
+
+a,
+a:visited {
+	color: #1f5cb8;
+}
+
+.soft-color,
+.soft-color:visited,
+.single .byline,
+.comment-metadata a,
+.post-navigation .post-title,
+.job-title,
+.edd_cart_header_row,
+.edd_cart_subtotal,
+.edd_cart_discount,
+.edd_cart_tax,
+.edd-description,
+.entry-inner-wrapper .checathlon-widget-pricing-entry-content,
+.entry-subtitle {
+	color: #6c6c6c;
+}
+
+.site-title a,
+.site-title a:visited,
+.page-template-team-page .entry-title a,
+.page-template-team-page .entry-title a:visited {
+	color: #1f1f1f;
+}
+.site-title-footer,
+.footer-widgets-wrapper .widget-title {
+	color: #fff;
+}
+
+.after-content-widget-area .widget:first-of-type,
+.after-content-widget-area .widget:first-of-type .widget-title,
+.front-page-widget-area .widget:first-of-type,
+.front-page-widget-area .widget:first-of-type .widget-title {
+	color: #fff;
+}
+
+.after-content-widget-area .widget:first-of-type,
+.front-page-widget-area .widget:first-of-type {
+	background-color: #111;
+}
+
+.site-footer a,
+.site-footer a:visited,
+.site-footer,
+.footer-widgets-wrapper {
+	color: #d4d4d4;
+}
+.footer-widgets-wrapper .widget a,
+.footer-widgets-wrapper .widget a:visited {
+	color: #e6e6e6;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.soft-color:hover,
+a.soft-color:focus,
+a.soft-color:active,
+.post-navigation .post-title:hover,
+.post-navigation .post-title:focus,
+.post-navigation .post-title:active {
+	color: #1f1f1f;
+}
+
+.footer-widgets-wrapper .widget a:hover,
+.footer-widgets-wrapper .widget a:focus,
+.footer-widgets-wrapper .widget a:active,
+.site-footer a:hover,
+.site-footer a:focus,
+.site-footer a:active {
+	color: #fff;
+}
+
+.page-template-team-page .entry-title a:hover,
+.page-template-team-page .entry-title a:focus,
+.page-template-team-page .entry-title a:active {
+	color: #1f5cb8;
+}
+
+/* Menus. */
+@media screen and (max-width: 62.874em) {
+
+	.main-navigation-open .main-navigation-wrapper {
+		background-color: rgba(255, 255, 255, 0.95);
+	}
+	.main-navigation {
+		background-color: #111;
+	}
+	.main-navigation a,
+	.main-navigation a:visited {
+		color: #d4d4d4;
+	}
+	.main-navigation a:hover,
+	.main-navigation a:focus,
+	.main-navigation a:active,
+	.main-navigation .current-menu-item > a,
+	.main-navigation .current-menu-ancestor > a {
+		color: #fff;
+	}
+
+}
+
+@media screen and (min-width: 62.875em) {
+
+	.main-navigation a,
+	.main-navigation a:visited {
+		color: #111;
+	}
+	.main-navigation a:hover,
+	.main-navigation a:focus,
+	.main-navigation a:active {
+		color: #1f5cb8;
+	}
+
+	.main-navigation .current-menu-item > a,
+	.main-navigation .current-menu-ancestor > a {
+		color: #1f5cb8;
+	}
+
+}
+
+.menu-social a,
+.menu-social a:visited {
+	background-color: #d4d4d4;
+	color: #111;
+}
+.menu-social a:hover,
+.menu-social a:focus,
+.menu-social a:active {
+	background-color: #fff;
+	color: #111;
+}
+
+#edd_secure_site_wrapper,
+.edd-cart-added-alert {
+	color: #18ad39;
+}
+
+.edd_error {
+	background-color: #ffcbcb;
+}
+
+/* Background colors. */
+body,
+pre,
+.comments-area,
+.after-content-widget-area,
+.downloads-area,
+.main-sidebar .widget,
+.page-links > a,
+.page-links > span {
+	background-color: #f2f2f2;
+}
+
+.site-header {
+	background-color: #fff;
+}
+
+.single .site-content,
+.page-template-default .site-content {
+	background-color: #fff;
+	background-image: linear-gradient(#f2f2f2, #fff 500px);
+}
+.home.page .site-content,
+.page-template-default.edd-checkout .site-content,
+.page-template-default.edd-success .site-content,
+.single-topic .site-content {
+	background-color: inherit;
+	background-image: none;
+}
+
+hr {
+	background-color: #e6e6e6;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+a.button,
+a.button:visited {
+	background-color: #1f5cb8;
+	color: #fff;
+}
+
+a.button-secondary,
+a.button-secondary:visited,
+a.edd-cart-saving-button,
+a.edd-cart-saving-button:visited,
+.edd-download-info .button.edd-demo-link,
+.edd-download-info .button.edd-demo-link:visited,
+body .wp-core-ui .quicktags-toolbar input.button.button-small {
+	background-color: #111;
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+a.button:hover,
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+a.button:focus,
+button:active,
+input[type="button"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active,
+a.button:active {
+	background-color: #111;
+	color: #fff;
+}
+a.button-secondary:hover,
+a.button-secondary:focus,
+a.button-secondary:active,
+a.edd-cart-saving-button.button:hover,
+a.edd-cart-saving-button.button:focus,
+a.edd-cart-saving-button.button:active,
+.edd-download-info .button.edd-demo-link:hover,
+.edd-download-info .button.edd-demo-link:focus,
+.edd-download-info .button.edd-demo-link:active,
+body .wp-core-ui .quicktags-toolbar input.button.button-small:hover,
+body .wp-core-ui .quicktags-toolbar input.button.button-small:focus,
+body .wp-core-ui .quicktags-toolbar input.button.button-small:active {
+	background-color: #1f5cb8;
+}
+
+.menu-toggle,
+.menu-toggle:hover,
+.menu-toggle:focus,
+.menu-toggle:active {
+	background-color: transparent;
+	color: #1f5cb8;
+}
+.menu-toggle.toggled {
+	color: #fff;
+}
+
+.pagination .page-numbers,
+.blog-wrapper .entry-inner,
+.search-results .entry-inner,
+.mb-wrapper .hentry,
+.mb-form-topic,
+.grid-wrapper .entry-inner-wrapper,
+.entry-login-form,
+.comment-body,
+#edd_checkout_cart_form,
+#edd_purchase_form fieldset,
+.edd-alert,
+.edd-success .entry-content {
+	background-color: #fff;
+}
+
+.pagination .page-numbers.current {
+	background-color: #6c6c6c;
+	color: #fff;
+}
+
+.screen-reader-text:focus {
+	background-color: #111;
+	color: #fff;
+}
+
+.entry-header-bg,
+.testimonial-icon-wrapper {
+	background-color: #d4d4d4;
+}
+
+a.entry-header-bg-link:hover,
+a.entry-header-bg-link:focus,
+a.entry-header-bg-link:active {
+	background-color: rgba(59, 59, 59, 0.33);
+}
+
+.entry-header-bg-link > .icon {
+	color: #6c6c6c;
+}
+
+.site-footer {
+	background-color: #373737;
+}
+
+.before-footer-widgets-wrapper {
+	background-color: #fff;
+	border-top-color: #f2f2f2; /* Same color as body background. */
+}
+.footer-widgets-wrapper {
+	background-color: #111;
+}
+
+.entry-terms > a,
+.widget_tag_cloud a,
+.widget_tag_cloud a:visited {
+	background-color: #f2f2f2;
+	color: #6c6c6c;
+}
+
+.main-sidebar .widget_tag_cloud a {
+	background-color: #e1e1e1;
+}
+.footer-widget-area .widget_tag_cloud a {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.entry-terms > a:hover,
+.entry-terms > a:focus,
+.entry-terms > a:active,
+.widget_tag_cloud a:hover,
+.widget_tag_cloud a:focus,
+.widget_tag_cloud a:active {
+	background-color: #111;
+	color: #fff;
+}
+
+.icon-wrapper {
+	background-color: #f2f2f2;
+}
+.icon-wrapper > .icon {
+	color: #6c6c6c;
+}
+
+mark,
+ins {
+	background: #fff9c0;
+}
+
+/* Borders. */
+abbr,
+acronym {
+	border-bottom-color: #666;
+}
+
+blockquote {
+	border-left-color: #1f1f1f;
+	color: #6c6c6c;
+}
+
+th,
+td,
+.single-portfolio_project .project-key,
+.single-portfolio_project .project-data {
+	border-bottom-color: #e6e6e6;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea,
+select {
+	border-color: #d4d4d4;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="color"]:focus,
+textarea:focus,
+select:focus {
+	border-color: #1f1f1f;
+}
+
+fieldset {
+	border-color: #e6e6e6;
+}
+
+.post-navigation .nav-previous ~ .nav-next,
+.comment-navigation .nav-previous ~ .nav-next,
+.post-navigation > .nav-links,
+#edd_checkout_cart tfoot > .edd_cart_footer_row:first-child th {
+	border-top-color: #e6e6e6;
+}
+
+/* Pricing widget. */
+.checathlon_widget_pricing .highlight-pricing {
+	border-color: #e1e1e1;
+}
+
+.grid-wrapper > .hentry .entry-inner-wrapper .highlight-title {
+	background-color: #e1e1e1;
+}
+
+.main-sidebar .widget li {
+	border-bottom-color: #e1e1e1;
+}
+
+.main-sidebar ul ul li:first-child {
+	border-top-color: #e1e1e1;
+}
+
+.jetpack-testimonial > .entry-inner-wrapper:after {
+	border-color: #fff transparent;
+}
+
+.archive-description:before,
+.page .entry-subtitle:before,
+.single .entry-subtitle:before {
+	border-bottom-color: #1f5cb8;
+}
+
+a.edd-add-to-cart .edd-loading {
+	border-top-color: rgba(255, 255, 255, 0.2);
+	border-right-color: rgba(255, 255, 255, 0.2);
+	border-bottom-color: rgba(255, 255, 255, 0.2);
+	border-left-color: #fff;
+}
+
+/* Custom styles. */
+body {
+	background-color: #f1f5f8;
+}
+
+.single .site-content,
+.page-template-default .site-content {
+	background-color: #fff;
+	background-image: linear-gradient(#f1f5f8, #fff 500px);
+}
+
+body,
+button,
+input,
+select,
+textarea,
+.main-navigation a,
+.entry-subtitle {
+	font-family: "PT Sans", sans-serif;
+}
+
+.title-font,
+.page-title,
+.after-content-widget-area .widget:first-of-type .widget-title,
+.front-page-widget-area .widget:first-of-type .widget-title,
+blockquote {
+	font-family: "Vollkorn", serif;
+}
+
+.title-font.text-italic {
+	font-style: normal;
+}
+
+.entry-border-bottom {
+	border-bottom: 4px solid #1f5cb8;
+}
+
+.site-header {
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+
+.custom-logo {
+	max-width: 100px;
+}
+
+.main-navigation a {
+	font-weight: 400;
+	text-transform: none;
+}
+
+@media screen and (min-width: 62.875em) {
+
+	.custom-logo {
+		max-width: 150px;
+	}
+
+	.main-navigation .primary-menu > li {
+		margin-right: 1.25rem;
+	}
+
+}
+
+.before-footer-widgets-wrapper {
+	background-color: #1f5cb8;
+	color: #fff;
+}
+
+.before-footer-widgets-wrapper a,
+.before-footer-widgets-wrapper a:visited {
+	color: #fff;
+}
+
+.before-footer-widgets-wrapper .icon,
+.footer-widgets-wrapper {
+	display: none;
+}
+
+.site-footer {
+	background-color: #111;
+}
+
+/* Highschool data table. */
+.table-scroll {
+	overflow-x: auto;
+}
+
+.highscools-comparison {
+	width: auto;
+}
+
+.highscools-comparison th,
+.highscools-comparison td {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.highscools-comparison .school-data {
+	font-weight: 700;
+}
+
+.highscools-comparison td,
+.highscools-comparison th {
+	vertical-align: top;
+}
+
+.highscools-comparison td p:last-child,
+.entry-inner-wrapper p:last-child {
+	margin-bottom: 0;
+}
+
+.highschools-button-list {
+	list-style-type: none;
+	margin-left: 0;
+}
+
+.highschools-button-list li {
+	display: inline-block;
+	padding-top: 2px;
+	margin-right: 3px;
+}
+
+.highschools-button-list button {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.5;
+}
+
+.highschools-button-list button.selected {
+	background-color: #111;
+}
+
+.highschool-content,
+.col {
+	display: none;
+}
+
+.highschool-content.selected {
+	display: table-row;
+}
+
+.col.selected {
+	display: table-cell;
+}
+
+/* Support for grid. */
+@supports (grid-area: auto) {
+
+	.highschools-button-list {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(145px, 1fr) ) ;
+		grid-gap: 4px;
+	}
+
+	.highschools-button-list li {
+		padding-top: 0;
+		margin-right: 0;
+	}
+
+	.highschools-button-list button {
+		width: 100%;
+		height: 100%;
+	}
+
+}
+
+.order-number {
+	position: relative;
+}
+
+.order-number .count-number {
+	background-color: #111;
+	border-radius: 50%;
+	font-size: 1.25rem;
+	font-weight: 400;
+	color: #fff;
+	display: block;
+	line-height: 2.5em;
+	width: 2.5em;
+	height: 2.5em;
+	margin: 0 auto 0.5em;
+	position: relative;
+	text-align: center;
+}
+
+.order-number .count-text {
+	display: block;
+	text-align: center;
+}
+
+@media screen and (min-width: 62.875em) {
+
+	.page-template-team-page .grid-wrapper-3 > .hentry {
+		width: 50%;
+	}
+
+}
+
+/* Accordion. */
+.accordion {
+	list-style-type: none;
+	margin-left: 0;
+}
+
+.accordion-title.button {
+	border-radius: 2px;
+	display: block;
+	font-weight: 400;
+	line-height: 1;
+	padding: 1.25em 1em;
+	position: relative;
+	margin-bottom: 1em;
+}
+
+.accordion-title:hover,
+.accordion-title:focus,
+.accordion-title:active {
+	background-color: #fff;
+}
+
+.accordion-title .icon {
+	position: absolute;
+	right: 1rem;
+	top: 50%;
+	margin-top: -0.5rem;
+	transition: all 0.3s;
+}
+
+.is-active > .accordion-title .icon {
+	transform: rotate(-180deg);
+}
+
+.accordion-content {
+	padding: 0 1em;
+}
+
+.entry-content h2,
+.entry-content h3,
+.entry-content h4 {
+	margin-top: 0;
+}
+
+.js .accordion-content {
+	display: none;
+}
+
+/* Map. */
+.highschools-map,
+.map {
+	height: 500px;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}

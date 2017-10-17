@@ -1,0 +1,42 @@
+# Copyright (C) 2017 eyh
+# This file is distributed under the same license as the eyh package.
+msgid ""
+msgstr ""
+"Project-Id-Version: eyh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: templates/highschool-page.php:2
+msgid "Highschool Page"
+msgstr ""
+
+#: templates/highschool-page.php:51
+msgid "Select highschools"
+msgstr ""
+
+#: templates/highschool-page.php:80
+msgid "Select data to compare"
+msgstr ""
+
+#: templates/highschool-page.php:98
+msgid "Scroll to right to see all data"
+msgstr ""
+
+#: templates/highschool-page.php:102
+msgid "Espoo highschools comparison"
+msgstr ""
+
+#: templates/highschool-page.php:104
+msgid "Highschool"
+msgstr ""
+
+#: templates/layout-page.php:2
+msgid "Layout Page"
+msgstr ""

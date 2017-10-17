@@ -77,10 +77,10 @@ function eyh_scripts() {
 
 	if ( is_page_template( 'templates/highschool-page.php' ) ) {
 		// Add maps JS.
-		wp_enqueue_script( 'eyh-map', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDxjVJjY2SER3VdE37Pk1KV6eUPtem9uVw', array(), '20170815', true );
+		wp_enqueue_script( 'eyh-map', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDxjVJjY2SER3VdE37Pk1KV6eUPtem9uVw', array(), '201701018', true );
 
 		// Add settings JS.
-		wp_enqueue_script( 'eyh-map-api', get_stylesheet_directory_uri() . '/assets/js/app.js', array( 'jquery', 'eyh-map' ), '20170815', true );
+		wp_enqueue_script( 'eyh-map-api', get_stylesheet_directory_uri() . '/assets/scripts/app' . $suffix . '.js', array( 'jquery', 'eyh-map' ), '201701018', true );
 
 		// Set args for getting education list.
 		$education_args = array(
