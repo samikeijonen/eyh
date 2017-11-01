@@ -61,7 +61,7 @@
 
     "seravo/seravo-plugin": ">=1.4.0",
 
-    "wpackagist-plugin/google-analytics-dashboard-for-wp": "*",
+    "wpackagist-plugin/simple-analytics": "*",
     "wpackagist-plugin/cmb2": "*",
     "wpackagist-plugin/subtitles": "*",
     "wpackagist-theme/checathlon": "*",
